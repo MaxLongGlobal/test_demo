@@ -1,0 +1,19 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 110365321
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 125
+  }
+}, {
+  "data" : {
+    "duration" : 138
+  }
+} ]

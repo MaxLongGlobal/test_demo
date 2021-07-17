@@ -1,0 +1,84 @@
+{
+  "uid" : "ecf0eb7ea9acf8a1",
+  "name" : "test_error",
+  "fullName" : "jenkins_demo.scripts.test_case.Test_all01#test_error",
+  "historyId" : "3876b37892f4f669c06ce48f4dab93c8",
+  "time" : {
+    "start" : 1626510901916,
+    "stop" : 1626510901917,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c52bf7b3d472866b",
+      "name" : "我需要让他进行错误",
+      "source" : "c52bf7b3d472866b.attach",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Test_all01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "jenkins_demo.scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_all01"
+  }, {
+    "name" : "host",
+    "value" : "BJ3184"
+  }, {
+    "name" : "thread",
+    "value" : "19256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "jenkins_demo.scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "点击可跳转到bug地址",
+    "url" : "http://music.migu.cn/v3/music/player/audio",
+    "type" : "issue"
+  }, {
+    "name" : "测试用例的地址",
+    "url" : "http://www.baidu.com/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecf0eb7ea9acf8a1.json",
+  "parameterValues" : [ ]
+}

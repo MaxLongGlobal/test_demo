@@ -1,0 +1,88 @@
+{
+  "uid" : "93808e87e9c9ab20",
+  "name" : "test_error",
+  "fullName" : "jenkins_demo.scripts.test_case.Test_all01#test_error",
+  "historyId" : "3876b37892f4f669c06ce48f4dab93c8",
+  "time" : {
+    "start" : 1626498777657,
+    "stop" : 1626498777658,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_case.Test_all01 object at 0x03B72838>\n\n    @allure.severity(allure.severity_level.BLOCKER)  # 严重级别\n    @allure.testcase(\"http://www.baidu.com/\", \"测试用例的地址\")\n    @allure.issue(\"http://music.migu.cn/v3/music/player/audio\", \"点击可跳转到bug地址\")\n    def test_error(self):\n        allure.attach(\"自定义描述1\", \"我需要让他进行错误\")\n        print(\"我错误了\")\n>       assert False\nE       assert False\n\njenkins_demo\\scripts\\test_case.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_case.Test_all01 object at 0x03B72838>\n\n    @allure.severity(allure.severity_level.BLOCKER)  # 严重级别\n    @allure.testcase(\"http://www.baidu.com/\", \"测试用例的地址\")\n    @allure.issue(\"http://music.migu.cn/v3/music/player/audio\", \"点击可跳转到bug地址\")\n    def test_error(self):\n        allure.attach(\"自定义描述1\", \"我需要让他进行错误\")\n        print(\"我错误了\")\n>       assert False\nE       assert False\n\njenkins_demo\\scripts\\test_case.py:26: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17b399ebe5ab3f93",
+      "name" : "我需要让他进行错误",
+      "source" : "17b399ebe5ab3f93.attach",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Test_all01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "jenkins_demo.scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_all01"
+  }, {
+    "name" : "host",
+    "value" : "BJ3184"
+  }, {
+    "name" : "thread",
+    "value" : "21260-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "jenkins_demo.scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "点击可跳转到bug地址",
+    "url" : "http://music.migu.cn/v3/music/player/audio",
+    "type" : "issue"
+  }, {
+    "name" : "测试用例的地址",
+    "url" : "http://www.baidu.com/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93808e87e9c9ab20.json",
+  "parameterValues" : [ ]
+}
