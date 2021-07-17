@@ -3,8 +3,8 @@
   "reportUrl" : "http://example.org/build#13/AllureReport",
   "reportName" : "Demo allure report",
   "data" : {
-    "run" : 20,
-    "retry" : 70
+    "run" : 30,
+    "retry" : 90
   }
 }, {
   "buildOrder" : 13,

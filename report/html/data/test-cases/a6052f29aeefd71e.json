@@ -1,0 +1,90 @@
+{
+  "uid" : "a6052f29aeefd71e",
+  "name" : "test_run",
+  "fullName" : "chapter7.scripts.test_case.Test_all01#test_run",
+  "historyId" : "7f04a6a977aceeb3c4ec886b634f5389",
+  "time" : {
+    "start" : 1626400877400,
+    "stop" : 1626400877402,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "run就是一个正常的方法.",
+      "time" : {
+        "start" : 1626400877401,
+        "stop" : 1626400877401,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea929ffce5129444",
+        "name" : "描述内容，自定义",
+        "source" : "ea929ffce5129444.attach",
+        "type" : "text/plain",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test_all01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chapter7.scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_all01"
+  }, {
+    "name" : "host",
+    "value" : "BJ3184"
+  }, {
+    "name" : "thread",
+    "value" : "16268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "chapter7.scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6052f29aeefd71e.json",
+  "parameterValues" : [ ]
+}

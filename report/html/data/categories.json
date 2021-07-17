@@ -7,7 +7,7 @@
       "name" : "AssertionError: assert False",
       "children" : [ {
         "name" : "test_error",
-        "uid" : "8db4aa26b21f83a3",
+        "uid" : "84ce9867d011d702",
         "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
         "status" : "failed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_error",
-        "uid" : "d38b4a46a343dba9",
+        "uid" : "adf6bf8f72f09cbb",
         "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
         "status" : "failed",
         "time" : {

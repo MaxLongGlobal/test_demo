@@ -1,0 +1,59 @@
+{
+  "uid" : "80ac334ed2a2811e",
+  "name" : "test_skip",
+  "fullName" : "chapter7.scripts.test_case.Test_all01#test_skip",
+  "historyId" : "06f225d25619da0da35dc29f3bba5e60",
+  "time" : {
+    "start" : 1626400877404,
+    "stop" : 1626400877405,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test_all01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chapter7.scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_all01"
+  }, {
+    "name" : "host",
+    "value" : "BJ3184"
+  }, {
+    "name" : "thread",
+    "value" : "16268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "chapter7.scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80ac334ed2a2811e.json",
+  "parameterValues" : [ ]
+}
