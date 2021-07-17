@@ -12,7 +12,7 @@ class Test_all01():
     def test_run(self):
         allure.attach("自定义描述1", "描述内容，自定义")
         print("我要运行")
-        assert True
+        assert 1
 
     def test_skip(self):
         print("我要跳过")
@@ -23,7 +23,7 @@ class Test_all01():
     def test_error(self):
         allure.attach("自定义描述1", "我需要让他进行错误")
         print("我错误了")
-        assert False
+        assert 1
 
     @allure.severity("critical")
     # @allure.epic("项目名称: 会所资源管理系统")
@@ -46,7 +46,7 @@ class Test_all02():
     def test_run(self):
         allure.attach("自定义描述1", "描述内容，自定义")
         print("我要运行")
-        assert True
+        assert 1
 
     def test_skip(self):
         print("我要跳过")
@@ -57,7 +57,7 @@ class Test_all02():
     def test_error(self):
         allure.attach("自定义描述1", "我需要让他进行错误")
         print("我错误了")
-        assert False
+        assert 1
 
     @allure.severity("critical")
     # @allure.epic("项目名称: 会所资源管理系统")
