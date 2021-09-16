@@ -7,26 +7,26 @@
       "name" : "AssertionError: assert 0",
       "children" : [ {
         "name" : "test_run",
-        "uid" : "3779a49a936134af",
+        "uid" : "513d21be3bebdc6d",
         "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
         "status" : "failed",
         "time" : {
-          "start" : 1626518003458,
-          "stop" : 1626518003461,
-          "duration" : 3
+          "start" : 1626659661353,
+          "stop" : 1626659661355,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_next",
-        "uid" : "7ccad79386fbf38e",
+        "uid" : "7fed9fc833bba7a9",
         "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
         "status" : "failed",
         "time" : {
-          "start" : 1626518003592,
-          "stop" : 1626518003595,
-          "duration" : 3
+          "start" : 1626659661474,
+          "stop" : 1626659661476,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : true,
