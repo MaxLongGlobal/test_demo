@@ -4,7 +4,7 @@
   "reportName" : "Demo allure report",
   "data" : {
     "run" : 10,
-    "retry" : 20
+    "retry" : 70
   }
 }, {
   "buildOrder" : 13,
